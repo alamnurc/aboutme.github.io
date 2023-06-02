@@ -1,0 +1,93 @@
+html {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    background-color:wheat;
+}
+
+body {
+    width: 720px;
+    border: 5px solid goldenrod;
+    border-radius: 32px;
+    margin: 0 auto;
+    padding: 0 16px 0 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: gray;
+}
+
+img {
+    width: 640px;
+    border-radius: 32px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img:hover{
+    width: 720px;
+    border-radius: 32px;
+}
+
+p {
+    color: dimgray;
+    text-indent: 64px;
+    font-size : 16px;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+
+button {
+    font-family: 'Montserrat', Montserrat, sans-serif;
+    font-size: 16px;
+    background-color: wheat;
+    color:darkgoldenrod;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid goldenrod;
+    border-radius: 32px;
+}
+
+.buttonquestion{
+    display:grid;
+    height: auto;
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.circle {
+    position: fixed;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #6f5411;
+    width: 10px;
+    height: 10px;
+    left: 20px;
+    right: 0;
+    transition: transform .2s ease, opacity .2s ease, border-color .2s ease, background-color .2s ease;
+    pointer-events: none;
+  }
+  
+*{
+    cursor: none;
+}
